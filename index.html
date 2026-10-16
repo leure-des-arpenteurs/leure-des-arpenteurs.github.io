@@ -3,12 +3,80 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="L’Eure des Arpenteurs : association Magic: The Gathering à la MJC d’Évreux. Rendez-vous chaque vendredi dès 18h30." />
+    <meta name="description" content="Joue à Magic: The Gathering à Évreux avec L’Eure des Arpenteurs : Commander multi, Duel Commander et Draft. À la MJC, les vendredis dès 18h30." />
     <meta name="theme-color" content="#10172f" />
-    <title>L’Eure des Arpenteurs — Magic à la MJC d’Évreux</title>
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <title>Association Magic à Évreux | L’Eure des Arpenteurs</title>
+    <link rel="canonical" href="https://leure-des-arpenteurs.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="L’Eure des Arpenteurs" />
+    <meta property="og:title" content="Association Magic à Évreux | L’Eure des Arpenteurs" />
+    <meta property="og:description" content="Commander multi, Duel Commander et Draft : retrouve la communauté Magic à la MJC d’Évreux, les vendredis dès 18h30." />
+    <meta property="og:url" content="https://leure-des-arpenteurs.github.io/" />
+    <meta property="og:image" content="https://leure-des-arpenteurs.github.io/assets/tournoi-principal.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="2048" />
+    <meta property="og:image:height" content="1536" />
+    <meta property="og:image:alt" content="Des joueuses et joueurs réunis lors d’un tournoi Magic de la communauté." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Association Magic à Évreux | L’Eure des Arpenteurs" />
+    <meta name="twitter:description" content="Commander multi, Duel Commander et Draft : retrouve la communauté Magic à la MJC d’Évreux, les vendredis dès 18h30." />
+    <meta name="twitter:image" content="https://leure-des-arpenteurs.github.io/assets/tournoi-principal.jpg" />
+    <meta name="twitter:image:alt" content="Des joueuses et joueurs réunis lors d’un tournoi Magic de la communauté." />
     <link rel="icon" type="image/png" href="assets/logo-embleme.png" />
     <link rel="preload" href="assets/rolf-magie.jpg" as="image" fetchpriority="high" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://leure-des-arpenteurs.github.io/#organisation",
+            "name": "L’Eure des Arpenteurs",
+            "url": "https://leure-des-arpenteurs.github.io/",
+            "description": "Association de joueuses et joueurs de Magic: The Gathering à la MJC d’Évreux : Commander multi, Duel Commander, Draft et tournois.",
+            "logo": "https://leure-des-arpenteurs.github.io/assets/logo-embleme.png",
+            "email": "leuredesarpenteurs@hotmail.com",
+            "location": {
+              "@type": "Place",
+              "name": "MJC d’Évreux",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1 avenue Aristide Briand",
+                "postalCode": "27000",
+                "addressLocality": "Évreux",
+                "addressCountry": "FR"
+              }
+            },
+            "sameAs": [
+              "https://www.facebook.com/p/LEure-des-Arpenteurs-100093516933201/",
+              "https://www.helloasso.com/associations/l-eure-des-arpenteurs"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://leure-des-arpenteurs.github.io/#website",
+            "url": "https://leure-des-arpenteurs.github.io/",
+            "name": "L’Eure des Arpenteurs",
+            "alternateName": "L’Eure des Arpenteurs — Magic à Évreux",
+            "inLanguage": "fr-FR",
+            "publisher": { "@id": "https://leure-des-arpenteurs.github.io/#organisation" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://leure-des-arpenteurs.github.io/#webpage",
+            "url": "https://leure-des-arpenteurs.github.io/",
+            "name": "Association Magic à Évreux | L’Eure des Arpenteurs",
+            "inLanguage": "fr-FR",
+            "isPartOf": { "@id": "https://leure-des-arpenteurs.github.io/#website" },
+            "about": { "@id": "https://leure-des-arpenteurs.github.io/#organisation" }
+          }
+        ]
+      }
+    </script>
+    <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
   </head>
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -40,8 +108,7 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-grid"></div>
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> Association Magic à Évreux</p>
-          <h1 id="hero-title">Vendredi,<br /><em>on joue.</em></h1>
+          <h1 id="hero-title"><span class="eyebrow"><span aria-hidden="true"></span> Association Magic à Évreux</span>Vendredi,<br /><em>on joue.</em></h1>
           <p class="hero-intro">Duel Commander, Commander ou Draft : retrouve une communauté de joueuses et joueurs pour partager des parties, des conseils et de bons moments.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#venir">Préparer ma venue <span aria-hidden="true">↘</span></a>
@@ -59,7 +126,7 @@
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.7 1.8-1.7H17V2.4c-.8-.1-1.7-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.4v2.9H7.5V13h2.8v9z" /></svg>
               <span>Facebook</span>
             </a>
-            <a class="social-button discord" href="https://qrto.org/xoVJu4" target="_blank" rel="noopener" aria-label="Rejoindre le serveur Discord de L’Eure des Arpenteurs">
+            <a class="social-button discord" href="https://discord.gg/J4RfrtKW4V" target="_blank" rel="noopener" aria-label="Rejoindre le serveur Discord de L’Eure des Arpenteurs">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.4 7.3A12 12 0 0 1 12 6.4c1.6 0 3.2.3 4.6.9 1.2 1.7 1.8 3.7 1.9 5.8-1.5 1.2-3.1 1.9-4.8 2.2l-.8-1.1c.8-.2 1.5-.6 2.1-1-.5.4-1.5.8-3 .8s-2.5-.4-3-.8c.6.4 1.3.8 2.1 1l-.8 1.1c-1.7-.3-3.3-1-4.8-2.2.1-2.1.7-4.1 1.9-5.8Z" /><circle cx="9.5" cy="11" r="1.1" fill="#fff8e9" /><circle cx="14.5" cy="11" r="1.1" fill="#fff8e9" /></svg>
               <span>Discord</span>
             </a>
@@ -76,7 +143,7 @@
       <section class="formats section" id="formats" aria-labelledby="formats-title">
         <div class="section-heading reveal">
           <p class="kicker">À nos tables</p>
-          <h2 id="formats-title">Plusieurs façons de lancer la partie</h2>
+          <h2 id="formats-title"><span class="title-line">Plusieurs façons</span> <span class="title-line">de lancer la partie</span></h2>
           <p>Le cœur de l’association, ce sont des formats variés et des tables où chacun peut trouver le rythme qui lui convient.</p>
         </div>
 
@@ -121,30 +188,34 @@
             </div>
             <p class="format-tag">Construire • découvrir • s’adapter</p>
             <h3>Draft</h3>
-            <p>Le draft implique l’achat des boosters. L’association les propose à prix coûtant afin de garder ce format aussi accessible que possible.</p>
+            <p>Le draft implique l’achat des boosters. L’association les propose à prix avantageux afin de garder ce format aussi accessible que possible aux membres.</p>
           </article>
         </div>
       </section>
 
       <section class="community" id="association" aria-labelledby="association-title">
         <div class="community-inner">
-          <div class="community-art reveal">
-            <img src="assets/oyez-oyez.png" alt="Un personnage léonin annonce la rencontre avec un porte-voix : Oyez ! Oyez !" />
-          </div>
-
           <div class="community-copy reveal">
             <p class="kicker light">Une communauté locale</p>
-            <h2 id="association-title">On vient avec un deck.<br />On repart avec des idées.</h2>
-            <p>L’Eure des Arpenteurs est une association de joueuses et joueurs de Magic: The Gathering réunie chaque semaine à la MJC d’Évreux.</p>
-            <p>On y trouve des adversaires, des partenaires de table et surtout une communauté avec laquelle discuter de ses decks, échanger des conseils ou des cartes, découvrir d’autres façons de jouer et préparer les prochaines parties.</p>
+            <h2 id="association-title">On vient pour découvrir.<br />On reste pour l’ambiance.</h2>
+            <div class="community-description">
+              <p>L’Eure des Arpenteurs est une association de joueuses et joueurs de Magic: The Gathering réunie chaque semaine à la MJC d’Évreux.</p>
+              <p>On y trouve des adversaires, des partenaires de table et surtout une communauté avec laquelle discuter de ses decks, échanger des conseils ou des cartes, découvrir d’autres façons de jouer et préparer les prochaines parties.</p>
+            </div>
 
             <ul class="community-list">
               <li><span>✦</span> Trouver facilement une table et de nouveaux adversaires</li>
               <li><span>✦</span> Tester, améliorer et parler de ses decks</li>
               <li><span>✦</span> Partager cartes, conseils et expériences de jeu</li>
             </ul>
+          </div>
 
-            <div class="weekly-note">
+          <div class="community-gathering">
+            <div class="community-art reveal">
+              <img src="assets/oyez-oyez.png" width="2048" height="1365" alt="Un personnage léonin annonce la rencontre avec un porte-voix : Oyez ! Oyez !" />
+            </div>
+
+            <div class="weekly-note reveal">
               <p class="small-label">Le rendez-vous hebdomadaire</p>
               <h3>Tous les vendredis dès 18h30</h3>
               <p>Les parties se poursuivent jusqu’à la fermeture des locaux, généralement vers 22h30. Tu peux venir avec ton deck, tes échanges, ta nourriture, ta boisson ou simplement l’envie de rencontrer la communauté.</p>
@@ -157,8 +228,8 @@
       <section class="tournaments" aria-labelledby="tournaments-title">
         <div class="tournaments-inner">
           <div class="tournaments-copy reveal">
-            <p class="kicker light">Rencontres et tournois</p>
-            <h2 id="tournaments-title">Jouer ensemble,<br />aussi en compétition.</h2>
+            <p class="kicker light">Compétitions et tournois</p>
+            <h2 id="tournaments-title">Participez à des évènements compétitifs</h2>
             <p>L’Eure des Arpenteurs organise des tournois et participe à des événements locaux. C’est l’occasion de sortir ses decks, de rencontrer d’autres communautés et de partager le jeu au-delà de nos soirées du vendredi.</p>
           </div>
 
@@ -185,53 +256,61 @@
 
           <div class="visit-grid">
             <article class="place-card reveal">
-              <div class="mjc-mark" aria-label="MJC Évreux"><span>m</span><span>j</span><span>c</span><small>Évreux</small></div>
-              <address>
-                <strong>Maison des jeunes et de la culture</strong><br />
-                1 avenue Aristide Briand<br />
-                27000 Évreux
-              </address>
+              <div class="place-heading">
+                <div class="mjc-mark" aria-label="MJC Évreux"><span>m</span><span>j</span><span>c</span><small>Évreux</small></div>
+                <address>
+                  <strong>Maison des jeunes et de la culture</strong><br />
+                  1 avenue Aristide Briand<br />
+                  27000 Évreux
+                </address>
+              </div>
               <div class="place-details">
                 <p><span>Horaires</span><strong>Les vendredis à partir de 18h30</strong></p>
                 <p><span>À l’intérieur</span><strong>1er étage, sur la droite</strong></p>
-                <p><span>Session de draft</span><strong>De 12€50 à 15€50 en fonction des extensions, à régler sur place en espèces</strong></p>
+                <p><span>Fermeture</span><strong>Vacances d’hiver et d’été</strong></p>
+                <p><span>Session de draft</span><strong>Entre <span class="draft-price">12€50</span> et <span class="draft-price">15€50</span> en fonction des extensions,<br />à régler sur place en espèces</strong></p>
               </div>
               <figure class="mjc-entrance">
-                <img src="assets/mjc-entree.png" alt="Vue extérieure de la MJC d’Évreux avec son entrée encadrée en rouge" />
-                <figcaption><strong>Repère d’entrée</strong><span>L’entrée de la MJC est encadrée en rouge.</span></figcaption>
+                <div class="mjc-entrance-visual">
+                  <img src="assets/mjc-entree.png" width="2048" height="1065" alt="Entrée de la MJC d’Évreux : la porte se trouve dans la partie verte de la façade, à gauche, encadrée en rouge et indiquée par une flèche." />
+                  <svg class="entrance-guide" viewBox="0 0 2048 1065" aria-hidden="true" focusable="false">
+                    <rect x="351" y="569" width="148" height="147" rx="2" fill="none" stroke="#fff" stroke-width="26" />
+                    <rect x="351" y="569" width="148" height="147" rx="2" fill="none" stroke="#e51c30" stroke-width="18" />
+                    <path d="M 900 340 L 580 540 L 560 508 L 507 622 L 637 606 L 616 574 L 936 374 Z" fill="#e51c30" stroke="#fff" stroke-width="10" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <figcaption><strong>Repère d’entrée</strong><span>Suis la flèche rouge : l’entrée est dans le cadre.</span></figcaption>
               </figure>
               <a class="button button-dark" href="https://www.google.com/maps/search/?api=1&amp;query=1+avenue+Aristide+Briand+27000+Evreux" target="_blank" rel="noopener">Ouvrir l’itinéraire <span aria-hidden="true">↗</span></a>
             </article>
 
-            <article class="membership-card reveal">
-              <p class="small-label">Adhésion annuelle</p>
-              <p class="price"><strong>20</strong><span>€</span></p>
-              <p>L’adhésion permet de faire vivre l’association et de participer à ses rendez-vous tout au long de l’année.</p>
-              <p class="payment">Règlement par chèque ou en espèces.</p>
-              <a class="button button-primary" href="https://www.helloasso.com/associations/l-eure-des-arpenteurs" target="_blank" rel="noopener">Notre page HelloAsso <span aria-hidden="true">↗</span></a>
-            </article>
+            <div class="visit-sidebar">
+              <article class="membership-card reveal">
+                <p class="small-label">Adhésion annuelle</p>
+                <p class="price"><strong>20</strong><span>€</span></p>
+                <p>L’adhésion permet de faire vivre l’association et de participer à ses rendez-vous tout au long de l’année.</p>
+                <p class="payment">Règlement par chèque ou en espèces.</p>
+                <a class="button button-primary" href="https://www.helloasso.com/associations/l-eure-des-arpenteurs" target="_blank" rel="noopener">Notre page HelloAsso <span aria-hidden="true">↗</span></a>
+              </article>
 
-            <article class="contact-card reveal" id="discord">
-              <div class="contact-copy">
-                <p class="small-label">Une question ?</p>
-                <h3>Écris-nous</h3>
-                <a class="email-link" href="mailto:leuredesarpenteurs@hotmail.com">leuredesarpenteurs@hotmail.com</a>
-                <div class="social-actions" aria-label="Réseaux sociaux de l’association">
-                  <a class="social-button facebook" href="https://www.facebook.com/p/LEure-des-Arpenteurs-100093516933201/" target="_blank" rel="noopener" aria-label="Retrouver L’Eure des Arpenteurs sur Facebook">
-                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.7 1.8-1.7H17V2.4c-.8-.1-1.7-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.4v2.9H7.5V13h2.8v9z" /></svg>
-                    <span>Facebook</span>
-                  </a>
-                  <a class="social-button discord" href="https://qrto.org/xoVJu4" target="_blank" rel="noopener" aria-label="Rejoindre le serveur Discord de L’Eure des Arpenteurs">
-                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.4 7.3A12 12 0 0 1 12 6.4c1.6 0 3.2.3 4.6.9 1.2 1.7 1.8 3.7 1.9 5.8-1.5 1.2-3.1 1.9-4.8 2.2l-.8-1.1c.8-.2 1.5-.6 2.1-1-.5.4-1.5.8-3 .8s-2.5-.4-3-.8c.6.4 1.3.8 2.1 1l-.8 1.1c-1.7-.3-3.3-1-4.8-2.2.1-2.1.7-4.1 1.9-5.8Z" /><circle cx="9.5" cy="11" r="1.1" fill="#fff8e9" /><circle cx="14.5" cy="11" r="1.1" fill="#fff8e9" /></svg>
-                    <span>Discord</span>
-                  </a>
+              <article class="contact-card reveal" id="discord">
+                <div class="contact-copy">
+                  <p class="small-label">Une question ?</p>
+                  <h3>Écris-nous</h3>
+                  <a class="email-link" href="mailto:leuredesarpenteurs@hotmail.com">leuredesarpenteurs@hotmail.com</a>
+                  <div class="social-actions" aria-label="Réseaux sociaux de l’association">
+                    <a class="social-button facebook" href="https://www.facebook.com/p/LEure-des-Arpenteurs-100093516933201/" target="_blank" rel="noopener" aria-label="Retrouver L’Eure des Arpenteurs sur Facebook">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-9h3l.5-3.5h-3.5V7.3c0-1 .3-1.7 1.8-1.7H17V2.4c-.8-.1-1.7-.2-2.5-.2-2.5 0-4.2 1.5-4.2 4.4v2.9H7.5V13h2.8v9z" /></svg>
+                      <span>Facebook</span>
+                    </a>
+                    <a class="social-button discord" href="https://discord.gg/J4RfrtKW4V" target="_blank" rel="noopener" aria-label="Rejoindre le serveur Discord de L’Eure des Arpenteurs">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.4 7.3A12 12 0 0 1 12 6.4c1.6 0 3.2.3 4.6.9 1.2 1.7 1.8 3.7 1.9 5.8-1.5 1.2-3.1 1.9-4.8 2.2l-.8-1.1c.8-.2 1.5-.6 2.1-1-.5.4-1.5.8-3 .8s-2.5-.4-3-.8c.6.4 1.3.8 2.1 1l-.8 1.1c-1.7-.3-3.3-1-4.8-2.2.1-2.1.7-4.1 1.9-5.8Z" /><circle cx="9.5" cy="11" r="1.1" fill="#fff8e9" /><circle cx="14.5" cy="11" r="1.1" fill="#fff8e9" /></svg>
+                      <span>Discord</span>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <a class="discord-qr" href="https://qrto.org/xoVJu4" target="_blank" rel="noopener" aria-label="Scanner ou ouvrir l’invitation vers le serveur Discord">
-                <img src="assets/discord-qr.png" alt="QR code d’invitation au serveur Discord de la communauté" />
-                <span>Scanne pour rejoindre<br />le serveur Discord</span>
-              </a>
-            </article>
+              </article>
+            </div>
           </div>
         </div>
       </section>
